@@ -1,0 +1,44 @@
+
+html {
+    height: 100vh;
+    background-image: url("https://www.xtrafondos.com/wallpapers/casa-kame-de-dragon-ball-3963.jpg");
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 0px;
+}
+
+
+
+.body{
+    font-family:'Poppins', sans-serif;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+
+
+.content {
+    display: flex;
+    justify-content: center;
+    width: 100vh;
+    align-items: center;
+    flex-direction: column;
+}
+
+button {
+    width: 50%;
+    height: 80px;
+    border-radius: 15px;
+    background-color: rgb(51, 6, 249);
+    color: white;
+    font-size: 3ch;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: white;
+    color: rgb(50, 10, 249);
+}  
